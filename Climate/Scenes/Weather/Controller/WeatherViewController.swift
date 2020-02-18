@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WeatherViewController.swift
 //  Climate
 //
 //  Created by claudiocarvalho on 18/02/20.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WeatherViewController: UIViewController {
+    
+    // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .blue
     }
-
-
 }
-
