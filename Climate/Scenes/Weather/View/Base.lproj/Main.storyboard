@@ -38,7 +38,7 @@
                                                 <rect key="frame" x="50" y="0.0" width="274" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="go"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bt0-ph-50H">
                                                 <rect key="frame" x="334" y="1" width="40" height="38"/>
@@ -48,6 +48,9 @@
                                                 </constraints>
                                                 <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <state key="normal" backgroundImage="magnifyingglass" catalog="system"/>
+                                                <connections>
+                                                    <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zQv-Ck-X8C"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -119,6 +122,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="ilx-qY-kuw" id="1Vj-LE-opA"/>
+                        <outlet property="conditionImageView" destination="c6G-Ms-LWh" id="TkA-Sv-0FH"/>
+                        <outlet property="searchTextField" destination="ksI-H5-Bhh" id="lBa-6h-UVT"/>
+                        <outlet property="temperatureLabel" destination="as6-O0-SJn" id="u4D-Gs-uNd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -131,7 +140,7 @@
         <image name="location.circle.fill" catalog="system" width="64" height="60"/>
         <image name="magnifyingglass" catalog="system" width="64" height="56"/>
         <namedColor name="weatherColor">
-            <color red="0.085024408999999995" green="0.21051049229999999" blue="0.22367680070000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.085000000894069672" green="0.210999995470047" blue="0.22400000691413879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
