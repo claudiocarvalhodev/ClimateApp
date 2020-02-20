@@ -54,7 +54,7 @@ Below is an overview of the functionality implemented:
 ## Installation
 
 * Download the project.
-* Open the terminal and navigate to the directory of project ```cd Gallery```.
+* Open the terminal and navigate to the directory of project ```cd Climate```.
 * Install Dependencies with Cocoapods ```pod install```.
 * Open the workspace ```open Climate.xcodeproj```.
 
