@@ -44,9 +44,9 @@ Below is an overview of the functionality implemented:
 
 <table style="width:100%">
   <tr>
-    <td><img src="https://github.com/claudiocarvalhodev/ClimateApp/blob/feature/readme-file/Screenshots/screenshot-01.png" alt="News" width=400 height=375/></td>
-    <td><img src="https://github.com/claudiocarvalhodev/ClimateApp/blob/feature/readme-file/Screenshots/screenshot-02.png" alt="News" width=400 height=375/></td>
-    <td><img src="https://github.com/claudiocarvalhodev/ClimateApp/blob/feature/readme-file/Screenshots/screenshot-03.png" alt="News" width=400 height=375/></td>
+    <td><img src="https://github.com/claudiocarvalhodev/ClimateApp/blob/feature/readme-file/Screenshots/screenshot-01.png" alt="News" /></td>
+    <td><img src="https://github.com/claudiocarvalhodev/ClimateApp/blob/feature/readme-file/Screenshots/screenshot-02.png" alt="News" /></td>
+    <td><img src="https://github.com/claudiocarvalhodev/ClimateApp/blob/feature/readme-file/Screenshots/screenshot-03.png" alt="News" /></td>
   </tr>
 </table>
 
