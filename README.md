@@ -23,7 +23,8 @@ This is an app to check the weather in all countries. This is possible because i
 Below is an overview of the functionality implemented:
 
 - Fetch and display the country and its current temperature.
-- Button to check the local temperature..
+- Button to check the local temperature.
+- Light and Dark mode
 
 ### Technical functionality
 
