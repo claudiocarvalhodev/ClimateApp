@@ -35,7 +35,7 @@ Below is an overview of the functionality implemented:
 
 ## Requirements
 
-- IDE: Xcode 11.3 (11C29)
+- IDE: Xcode 11.3.1 (11C504)
 - Swift 5.x
 - iOS 13.0+
 
